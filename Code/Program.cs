@@ -24,3 +24,11 @@ for (int i = 0; i < temp_array.Length; i++)
         new_index++;
     }
 }
+PrintArray(new_array);
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        System.Console.Write($"{array[i]} ");
+    }
+}
